@@ -1,0 +1,106 @@
+/* تنظیمات کلی */
+body {
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* استایل پنل مدیریت */
+.admin-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.admin-section h2 {
+    margin-top: 0;
+    color: #1e3c72;
+    font-size: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    box-sizing: border-box; /* جلوگیری از بیرون زدن از کادر */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.divider {
+    height: 2px;
+    background: #ccc;
+    margin: 40px 0;
+}
+
+/* استایل کارت‌های خبری */
+.news-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-right: 6px solid #1e3c72; /* خط تزئینی کنار خبر */
+    transition: transform 0.2s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-card h3 {
+    margin-top: 0;
+    color: #1e3c72;
+    font-size: 1.5rem;
+}
+
+.news-card p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.news-card small {
+    display: block;
+    margin-top: 15px;
+    color: #999;
+    font-size: 0.8rem;
+}
