@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت خبری من</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>خبرگزاری آنلاین</h1>
+        <p>آخرین اخبار و اتفاقات روز</p>
+    </header>
+
+    <div class="container">
+        <!-- پنل مدیریت برای تو -->
+        <section id="admin-panel" class="admin-section">
+            <h2>📝 پنل مدیریت (انتشار خبر)</h2>
+            <input type="text" id="news-title" placeholder="عنوان خبر را اینجا بنویسید...">
+            <textarea id="news-content" rows="5" placeholder="متن کامل خبر..."></textarea>
+            <button onclick="publishNews()">انتشار خبر در سایت</button>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- بخش نمایش اخبار برای کاربران -->
+        <section id="news-display">
+            <h2>📰 آخرین اخبار منتشر شده</h2>
+            <div id="news-container">
+                <!-- اخبار توسط جاوااسکریپت اینجا ساخته می‌شوند -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
